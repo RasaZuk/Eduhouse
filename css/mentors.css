@@ -1,0 +1,81 @@
+table {
+    border-spacing: 0;
+}
+
+
+
+
+thead td {
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: 1px solid black;
+}
+
+
+
+tbody td {
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+
+}
+
+.photo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 2px 1px 2px 3px;
+}
+
+
+tbody td > div {
+    background-color: white;
+    line-height: 3rem;  
+}
+
+tbody td div > img {
+    display: flex;
+    width: 3rem;
+    height: 3.1rem;
+    border-radius: 50%;
+    padding: 5px; 
+}
+
+td .end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+td div .btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 12px;
+    font-weight: 550;
+    font-size: 0.8rem;
+}
+
+
+td div .fa-envelope-o {
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+div .fa-ellipsis-v{
+    width: 40px;
+    padding: 15px 8px;
+}
+
+tbody td:first-child > div {
+    border-radius: 1rem 0 0 1rem;
+}
+
+tbody td:last-child >div {
+    border-radius: 0 1rem 1rem 0;
+}
