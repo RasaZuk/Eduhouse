@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -93,22 +93,71 @@ main {
 }
 
 .subscription .content > img {
-  margin-top: -100px;
-  
+  margin-top: -100px; 
 }
 
 
-  .yellow-submarine {
-    display: inline-block;
-    padding: 0.5em 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
-    text-decoration: none;
-    background-color: orange;
-    color: #fff;  
-    border: none;
-    border-radius: 0.3em;
-    cursor: pointer;
-    user-select: none;
-  }
+.content > p {
+  margin: 25px;
+
+}
+
+
+.yellow-submarine {
+  display: inline-block;
+  padding: 0.5em 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: orange;
+  color: #fff;  
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px 0 13px 0;
+}
+
+
+.content > popular {
+  display: flex;
+  height: 3rem;
+  background-color: white;
+}
+
+.design {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+ 
+
+}
+
+
+.popular h3 {
+  display: flex;
+  font-size: 20px;
+  padding-right: 50px;
+  
+ 
+}
+
+.popular p {
+  display: flex;
+  font-size: 0.9rem;
+  margin: 10px;
+}
+
+.ikonele {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -50px;
+  padding: 5px;
+  
+}
